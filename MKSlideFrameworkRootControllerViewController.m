@@ -8,9 +8,6 @@
 
 #import "MKSlideFrameworkRootControllerViewController.h"
 
-#define RIGHTVIEW_POSITION_X 215
-#define ANIMATE_DURATION 0.5
-#define THRESHOLD 300
 @interface MKSlideFrameworkRootControllerViewController ()
 @property (nonatomic, strong) UITapGestureRecognizer *tap;
 @end
