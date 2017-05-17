@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+#ifndef RIGHTVIEW_POSITION_X
+#define RIGHTVIEW_POSITION_X 215
+#endif
+#ifndef ANIMATE_DURATION
+#define ANIMATE_DURATION 0.5
+#endif
+#ifndef THRESHOLD
+#define THRESHOLD 300
+#endif
+
 @interface MKSlideFrameworkRootControllerViewController : UIViewController
 
 @property (nonatomic, strong) UIViewController *leftViewController;
